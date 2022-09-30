@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+/* font-family: 'Fraunces', serif; */
+
+body {
+    background-color: hsl(212, 21%, 14%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.CardContainer {
+    width: 1440px;
+    height: 800px;
+    background-color: #f3eae3;
+    margin: auto;
+    display: flex;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.cardinCard {
+    width: 600px;
+    background-color: white;
+    height: 450px;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.leftContainer {
+    filter: brightness(0.8);
+    filter: contrast(75%);
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./image-product-desktop.jpg);
+}
+.rightContainer {
+    width: 50%;
+    height: 100%;
+}
+
+.rightTxt {
+    margin-top: 35px;
+    margin-left: 30px;
+}
+h4 {
+    font-size: 13px;
+    letter-spacing: 0.3em;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+}
+
+.rightTxt h1 {
+    width: 200px;
+    height: 100%;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+
+    line-height: 100%;
+}
+.price {
+    display: flex;
+}
+
+#floral {
+    margin-bottom: 15px;
+    width: 240px;
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+button {
+    font-family: "Fraunces", serif;
+    background-color: #3d8168;
+    width: 230px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+#leftPrice {
+    color: #4b8974;
+    margin-right: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Fraunces";
+}
+
+button img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+}
+
+#rightPrice {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
